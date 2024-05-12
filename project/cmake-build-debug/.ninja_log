@@ -1,0 +1,8 @@
+# ninja log v5
+0	59	1715504962349183269	CMakeFiles/project.dir/bus_utils.c.o	6af0c7e7ed0e04d1
+60	74	1715504962409182342	project	b14d1e283bd585c6
+0	59	1715504962353183208	CMakeFiles/project.dir/main.c.o	7855751bfdcc8365
+1	37	1715498821106741101	CMakeFiles/project.dir/writedata.c.o	bdefa83c34ee9c49
+1	60	1715504962349183269	CMakeFiles/project.dir/cancel_booking.c.o	9f1dff4edb3f8a97
+1	60	1715504962349183269	CMakeFiles/project.dir/show_buses.c.o	d78711508bd6b688
+1	60	1715504962353183208	CMakeFiles/project.dir/add_bus.c.o	7610cc3255b1b158
