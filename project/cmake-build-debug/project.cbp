@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ubuntu/Desktop/pkgBuild/project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ubuntu/Desktop/pkgBuild/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ubuntu/Desktop/pkgBuild/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ubuntu/Desktop/pkgBuild/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ubuntu/Desktop/pkgBuild/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="project">
+				<Option output="/home/ubuntu/Desktop/pkgBuild/project/cmake-build-debug/project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/Desktop/pkgBuild/project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/gtk-4.0"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/libmount"/>
+					<Add directory="/usr/include/blkid"/>
+					<Add directory="/usr/include/fribidi"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/usr/include/graphene-1.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/graphene-1.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ubuntu/Desktop/pkgBuild/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 project"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ubuntu/Desktop/pkgBuild/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ubuntu/Desktop/pkgBuild/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ubuntu/Desktop/pkgBuild/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="project/fast">
+				<Option output="/home/ubuntu/Desktop/pkgBuild/project/cmake-build-debug/project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/Desktop/pkgBuild/project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/gtk-4.0"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/libmount"/>
+					<Add directory="/usr/include/blkid"/>
+					<Add directory="/usr/include/fribidi"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/usr/include/graphene-1.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/graphene-1.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ubuntu/Desktop/pkgBuild/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 project/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ubuntu/Desktop/pkgBuild/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ubuntu/Desktop/pkgBuild/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ubuntu/Desktop/pkgBuild/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ubuntu/Desktop/pkgBuild/project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ubuntu/Desktop/pkgBuild/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ubuntu/Desktop/pkgBuild/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ubuntu/Desktop/pkgBuild/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ubuntu/Desktop/pkgBuild/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ubuntu/Desktop/pkgBuild/project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ubuntu/Desktop/pkgBuild/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ubuntu/Desktop/pkgBuild/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ubuntu/Desktop/pkgBuild/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ubuntu/Desktop/pkgBuild/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ubuntu/Desktop/pkgBuild/project/add_bus.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Desktop/pkgBuild/project/add_bus.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Desktop/pkgBuild/project/book_seat.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Desktop/pkgBuild/project/book_seat.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Desktop/pkgBuild/project/bus_utils.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Desktop/pkgBuild/project/bus_utils.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Desktop/pkgBuild/project/cancel_booking.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Desktop/pkgBuild/project/cancel_booking.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Desktop/pkgBuild/project/cancel_bus.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Desktop/pkgBuild/project/cancel_bus.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Desktop/pkgBuild/project/check_capacity.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Desktop/pkgBuild/project/check_capacity.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Desktop/pkgBuild/project/main.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Desktop/pkgBuild/project/show_bookings.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Desktop/pkgBuild/project/show_bookings.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Desktop/pkgBuild/project/show_buses.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Desktop/pkgBuild/project/show_buses.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Desktop/pkgBuild/project/validate_time.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Desktop/pkgBuild/project/validate_time.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Desktop/pkgBuild/project/writedata.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Desktop/pkgBuild/project/writedata.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Desktop/pkgBuild/project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,68 @@
+[
+{
+  "directory": "/home/ubuntu/Desktop/pkgBuild/project/build",
+  "command": "/usr/bin/cc  -I/usr/include/gtk-4.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/graphene-1.0 -I/usr/lib/x86_64-linux-gnu/graphene-1.0/include -g -std=gnu2x -mfpmath=sse -msse -msse2 -pthread -o CMakeFiles/project.dir/main.c.o -c /home/ubuntu/Desktop/pkgBuild/project/main.c",
+  "file": "/home/ubuntu/Desktop/pkgBuild/project/main.c",
+  "output": "CMakeFiles/project.dir/main.c.o"
+},
+{
+  "directory": "/home/ubuntu/Desktop/pkgBuild/project/build",
+  "command": "/usr/bin/cc  -I/usr/include/gtk-4.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/graphene-1.0 -I/usr/lib/x86_64-linux-gnu/graphene-1.0/include -g -std=gnu2x -mfpmath=sse -msse -msse2 -pthread -o CMakeFiles/project.dir/writedata.c.o -c /home/ubuntu/Desktop/pkgBuild/project/writedata.c",
+  "file": "/home/ubuntu/Desktop/pkgBuild/project/writedata.c",
+  "output": "CMakeFiles/project.dir/writedata.c.o"
+},
+{
+  "directory": "/home/ubuntu/Desktop/pkgBuild/project/build",
+  "command": "/usr/bin/cc  -I/usr/include/gtk-4.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/graphene-1.0 -I/usr/lib/x86_64-linux-gnu/graphene-1.0/include -g -std=gnu2x -mfpmath=sse -msse -msse2 -pthread -o CMakeFiles/project.dir/bus_utils.c.o -c /home/ubuntu/Desktop/pkgBuild/project/bus_utils.c",
+  "file": "/home/ubuntu/Desktop/pkgBuild/project/bus_utils.c",
+  "output": "CMakeFiles/project.dir/bus_utils.c.o"
+},
+{
+  "directory": "/home/ubuntu/Desktop/pkgBuild/project/build",
+  "command": "/usr/bin/cc  -I/usr/include/gtk-4.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/graphene-1.0 -I/usr/lib/x86_64-linux-gnu/graphene-1.0/include -g -std=gnu2x -mfpmath=sse -msse -msse2 -pthread -o CMakeFiles/project.dir/show_buses.c.o -c /home/ubuntu/Desktop/pkgBuild/project/show_buses.c",
+  "file": "/home/ubuntu/Desktop/pkgBuild/project/show_buses.c",
+  "output": "CMakeFiles/project.dir/show_buses.c.o"
+},
+{
+  "directory": "/home/ubuntu/Desktop/pkgBuild/project/build",
+  "command": "/usr/bin/cc  -I/usr/include/gtk-4.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/graphene-1.0 -I/usr/lib/x86_64-linux-gnu/graphene-1.0/include -g -std=gnu2x -mfpmath=sse -msse -msse2 -pthread -o CMakeFiles/project.dir/cancel_booking.c.o -c /home/ubuntu/Desktop/pkgBuild/project/cancel_booking.c",
+  "file": "/home/ubuntu/Desktop/pkgBuild/project/cancel_booking.c",
+  "output": "CMakeFiles/project.dir/cancel_booking.c.o"
+},
+{
+  "directory": "/home/ubuntu/Desktop/pkgBuild/project/build",
+  "command": "/usr/bin/cc  -I/usr/include/gtk-4.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/graphene-1.0 -I/usr/lib/x86_64-linux-gnu/graphene-1.0/include -g -std=gnu2x -mfpmath=sse -msse -msse2 -pthread -o CMakeFiles/project.dir/add_bus.c.o -c /home/ubuntu/Desktop/pkgBuild/project/add_bus.c",
+  "file": "/home/ubuntu/Desktop/pkgBuild/project/add_bus.c",
+  "output": "CMakeFiles/project.dir/add_bus.c.o"
+},
+{
+  "directory": "/home/ubuntu/Desktop/pkgBuild/project/build",
+  "command": "/usr/bin/cc  -I/usr/include/gtk-4.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/graphene-1.0 -I/usr/lib/x86_64-linux-gnu/graphene-1.0/include -g -std=gnu2x -mfpmath=sse -msse -msse2 -pthread -o CMakeFiles/project.dir/cancel_bus.c.o -c /home/ubuntu/Desktop/pkgBuild/project/cancel_bus.c",
+  "file": "/home/ubuntu/Desktop/pkgBuild/project/cancel_bus.c",
+  "output": "CMakeFiles/project.dir/cancel_bus.c.o"
+},
+{
+  "directory": "/home/ubuntu/Desktop/pkgBuild/project/build",
+  "command": "/usr/bin/cc  -I/usr/include/gtk-4.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/graphene-1.0 -I/usr/lib/x86_64-linux-gnu/graphene-1.0/include -g -std=gnu2x -mfpmath=sse -msse -msse2 -pthread -o CMakeFiles/project.dir/book_seat.c.o -c /home/ubuntu/Desktop/pkgBuild/project/book_seat.c",
+  "file": "/home/ubuntu/Desktop/pkgBuild/project/book_seat.c",
+  "output": "CMakeFiles/project.dir/book_seat.c.o"
+},
+{
+  "directory": "/home/ubuntu/Desktop/pkgBuild/project/build",
+  "command": "/usr/bin/cc  -I/usr/include/gtk-4.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/graphene-1.0 -I/usr/lib/x86_64-linux-gnu/graphene-1.0/include -g -std=gnu2x -mfpmath=sse -msse -msse2 -pthread -o CMakeFiles/project.dir/show_bookings.c.o -c /home/ubuntu/Desktop/pkgBuild/project/show_bookings.c",
+  "file": "/home/ubuntu/Desktop/pkgBuild/project/show_bookings.c",
+  "output": "CMakeFiles/project.dir/show_bookings.c.o"
+},
+{
+  "directory": "/home/ubuntu/Desktop/pkgBuild/project/build",
+  "command": "/usr/bin/cc  -I/usr/include/gtk-4.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/graphene-1.0 -I/usr/lib/x86_64-linux-gnu/graphene-1.0/include -g -std=gnu2x -mfpmath=sse -msse -msse2 -pthread -o CMakeFiles/project.dir/check_capacity.c.o -c /home/ubuntu/Desktop/pkgBuild/project/check_capacity.c",
+  "file": "/home/ubuntu/Desktop/pkgBuild/project/check_capacity.c",
+  "output": "CMakeFiles/project.dir/check_capacity.c.o"
+},
+{
+  "directory": "/home/ubuntu/Desktop/pkgBuild/project/build",
+  "command": "/usr/bin/cc  -I/usr/include/gtk-4.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/graphene-1.0 -I/usr/lib/x86_64-linux-gnu/graphene-1.0/include -g -std=gnu2x -mfpmath=sse -msse -msse2 -pthread -o CMakeFiles/project.dir/validate_time.c.o -c /home/ubuntu/Desktop/pkgBuild/project/validate_time.c",
+  "file": "/home/ubuntu/Desktop/pkgBuild/project/validate_time.c",
+  "output": "CMakeFiles/project.dir/validate_time.c.o"
+}
+]
