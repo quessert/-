@@ -38,4 +38,5 @@ void book_seat() {
     write_data("reservations.dat", &reservation, sizeof(reservation));
 
     printf("预约成功！\n");
+    getchar();//移除多余的进入键位
 }
