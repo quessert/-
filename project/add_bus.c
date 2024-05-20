@@ -7,10 +7,13 @@
 #include "add_bus.h"
 #include "writedata.h"
 #include "bus_utils.h"
+#include "validate_time.h"
 
 #define MAX_BUSES 10
 
 Bus buses[MAX_BUSES];
+
+
 
 void add_bus() {
     Bus new_bus; // 建立一个新的班车对象
@@ -21,11 +24,16 @@ void add_bus() {
     printf("请输入司机姓名：");
     scanf("%s", new_bus.driver_name);
 
-    printf("请输入出发时间：");
-    scanf("%s", new_bus.departure_time);
+    do {
+        printf("请输入出发时间（格式：HH:MM）：");
+        scanf("%s", new_bus.departure_time);
+    } while (!validate_time(new_bus.departure_time));
 
-    printf("请输入到达时间：");
-    scanf("%s", new_bus.arrival_time);
+    // 输入到达时间，直到格式正确
+    do {
+        printf("请输入到达时间（格式：HH:MM）：");
+        scanf("%s", new_bus.arrival_time);
+    } while (!validate_time(new_bus.arrival_time));
 
     printf("请输入出发地：");
     scanf("%s", new_bus.from);
@@ -41,4 +49,5 @@ void add_bus() {
     write_data("buses.dat", &new_bus, sizeof(new_bus));
 
     printf("班车已成功添加！\n");
+    getchar();//移除多余的进入键位
 }

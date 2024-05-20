@@ -26,6 +26,8 @@ add_executable(project main.c
         show_bookings.h
         check_capacity.c
         check_capacity.h
+        validate_time.c
+        validate_time.h
 )
 
 target_include_directories(project PRIVATE ${GTK4_INCLUDE_DIRS})

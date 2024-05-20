@@ -35,7 +35,8 @@
 }*/
 
 int main() {
-    int choice;
+    int intChoice;
+    double doubleChoice;
 
     while(1) {
         printf("班车预约系统\n");
@@ -69,36 +70,54 @@ int main() {
             continue;
         }
 
-        // 使用 sscanf 从 input 中解析数字字元
-        if (sscanf(input, "%d", &choice) != 1) {
-            printf("无效的输入！请输入数字。\n");
+        // 检查输入是否包含非法字符（如小数点或非数字字符）
+        int isInvalid = 0;
+        for (int i = 0; input[i] != '\0'; i++) {
+            if (input[i] == '.' || (!isspace(input[i]) && !isdigit(input[i]))) {
+                isInvalid = 1; // 发现小数点或非数字字符
+                break;
+            }
+        }
+
+        if (isInvalid) {
+            printf("无效的输入！请输入整数。\n");
             continue;
         }
 
-        // 根据 choice 执行相应操作
-        switch(choice) {
-            case 1:
-                add_bus();
+        // 使用 sscanf 从 input 中解析数字字元
+        if (sscanf(input, "%d", &intChoice) == 1) {
+            // 根据 choice 执行相应操作
+            switch(intChoice) {
+                case 1:
+                    add_bus();
                 break;
-            case 2:
-                book_seat();
+                case 2:
+                    book_seat();
                 break;
-            case 3:
-                cancel_bus();
+                case 3:
+                    cancel_bus();
                 break;
-            case 4:
-                cancel_booking();
+                case 4:
+                    cancel_booking();
                 break;
-            case 5:
-                show_bookings();
+                case 5:
+                    show_bookings();
                 break;
-            case 6:
-                show_buses();
+                case 6:
+                    show_buses();
                 break;
-            case 7:
-                exit(0);
-            default:
-                printf("无效的选择！请选择1-6之间的数字。\n");
+                case 7:
+                    exit(0);
+                default:
+                    printf("无效的选择！请选择1-6之间的数字。\n");
+                break;
+            }
         }
+
+        else {
+            printf("无效的输入！请输入整数。\n");
+        }
+
     }
+    return 0;
 }
