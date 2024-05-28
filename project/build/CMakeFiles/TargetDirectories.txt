@@ -1,3 +1,0 @@
-/home/ubuntu/Desktop/pkgBuild/project/build/CMakeFiles/project.dir
-/home/ubuntu/Desktop/pkgBuild/project/build/CMakeFiles/edit_cache.dir
-/home/ubuntu/Desktop/pkgBuild/project/build/CMakeFiles/rebuild_cache.dir
